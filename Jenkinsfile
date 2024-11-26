@@ -4,7 +4,7 @@ node('master')
 	{
     git 'https://github.com/sunildevops77/maven.git'
 	}
-    stage('Continuous Build') 
+  /*  stage('Continuous Build') 
 	{
     sh label: '', script: 'mvn package'
 	}
@@ -19,5 +19,5 @@ sh label: '', script: 'scp /home/ubuntu/.jenkins/workspace/ScriptedPipeline/weba
     stage('Continuous Delivery') 
 	{
 sh label: '', script: 'scp /home/ubuntu/.jenkins/workspace/ScriptedPipeline/webapp/target/webapp.war   ubuntu@172.31.22.88:/var/lib/tomcat8/webapps/prodenv.war'
-	}
+	} */
 }
