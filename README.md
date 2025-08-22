@@ -3,8 +3,6 @@ changes made on 25 nov
 testing
 checking
 changes made on 26 nov
-checking
-everything okay
 changes made on aug 18th
-
+changes on aug 22nd
 
