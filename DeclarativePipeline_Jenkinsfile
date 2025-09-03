@@ -1,6 +1,9 @@
 pipeline
 {
     agent any
+    tools {
+     maven 'maven_01'
+     }
     stages
     {
         stage('ContDownload')
