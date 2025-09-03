@@ -7,7 +7,8 @@ pipeline
         {
             steps
             {
-                git 'https://github.com/selenium-saikrishna/maven.git'
+                // git 'https://github.com/selenium-saikrishna/maven.git'
+                 git 'https://github.com/m-chiranjeevi1/maven.git'
             }
         }
         stage('ContBuild')
@@ -17,13 +18,13 @@ pipeline
                 sh 'mvn package'
             }
         }
-        stage('ContDeployment')
+        /* stage('ContDeployment')
         {
             steps
             {
                 sh 'scp /var/lib/jenkins/workspace/Declarative_Pipeline/webapp/target/webapp.war vagrant@10.10.10.32:/var/lib/tomcat7/webapps/qaenv.war'
             }
-        }
+        } 
         stage('ContTesting')
         {
             steps
@@ -46,7 +47,6 @@ pipeline
             
         }
         
-     }
-      
-    
+     } */
+     }   
 }
