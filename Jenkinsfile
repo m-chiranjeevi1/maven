@@ -17,8 +17,8 @@ node('master')
   } */
   stage('ContinuousTesting') 
   {
-    git 'https://github.com/selenium-saikrishna/TestingOnLinux.git'
-    
+    // git 'https://github.com/selenium-saikrishna/TestingOnLinux.git'
+    sh 'echo "hello jenkins"'  
   }
 /*  stage('ContinuousDelivery') 
   {
